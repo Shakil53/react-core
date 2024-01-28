@@ -6,18 +6,19 @@ const root2 = document.getElementById('root');
 root2.innerText = 'Hello world';
 
 const HelloWorld = () => {
-    return React.createElement("p", {}, 'Hello world')
-    
-    
+    return <h1> Hello World</h1>
 }
 
 const App = () => {
-    {
-        return React.createElement('h1', {style : {color: "red"}}, "This is a poor react app", HelloWorld())
-    }
+    return(
+    <React.Fragment>
+        <div>This is poor react app</div>
+        <HelloWorld/>
+    </React.Fragment>
+    )
 
 }
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 console.log(root);
-root.render(React.createElement(App))
+root.render(<App/>)
