@@ -1,0 +1,23 @@
+{
+  "name": "react-core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shakil53/react-core.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shakil53/react-core/issues"
+  },
+  "homepage": "https://github.com/Shakil53/react-core#readme",
+  "devDependencies": {
+    "rollup": "^4.9.6"
+  },
+  "description": ""
+}
